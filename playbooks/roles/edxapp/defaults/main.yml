@@ -34,8 +34,8 @@ EDXAPP_LMS_MAX_REQ: !!null
 EDXAPP_CMS_MAX_REQ: !!null
 
 # Comma-separated list of hosts/ips
-EDXAPP_MONGO_HOSTS: 'localhost'
-EDXAPP_MONGO_PASSWORD: 'password'
+EDXAPP_MONGO_HOSTS: 'mongodb+srv://edxapp:edxapp@cluster0-guvtr.azure.mongodb.net/test?retryWrites=true&w=majority'
+EDXAPP_MONGO_PASSWORD: 'edxapp'
 EDXAPP_MONGO_PORT: 27017
 EDXAPP_MONGO_USER: 'edxapp'
 EDXAPP_MONGO_DB_NAME: 'edxapp'
